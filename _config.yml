@@ -1,0 +1,13 @@
+
+baseurl: '/transtool'
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "compress"
+
+compress_html:
+  clippings: all
+  comments: ["/*", "*/"]
